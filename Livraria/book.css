@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+body
+{
+    /*color: #777777;*/
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+
+    background-image: url("assets/images/background.jpg");
+}
+.IGI{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.slide {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    background-size: cover;
+    background-position: center;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: cyan;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.subheading{
+    font-weight: 300;
+}
+.navbar.scrolled
+{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+.preview-msg{
+    font-size: .7rem;
+    font-weight: 500;
+}
+.bca1{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.banner-area{
+    width: 100vw;
+    height: 100vh;
+}
